@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-text: #111;
+}
+
+.Header {
+    @apply flex items-center justify-center w-full px-4 py-2 bg-white shadow-md;
+}
+
+.App {
+    @apply min-h-screen mt-14;
+}
+
+text {
+    color: var(--color-text);
+}
+
+.Content {
+    @apply flex flex-col items-center justify-center my-8;
+}
+.Title {
+    @apply text-3xl font-bold;
+}
